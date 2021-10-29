@@ -1,0 +1,24 @@
+[id^="__@kinescope/portal_"] {
+    position: relative;
+    z-index: 99999;
+}
+.kinescope-tv__group {
+	display: flex;
+}
+.kinescope-tv__button {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.kinescope-tv__message {
+    padding: 10px 0;
+}
+.kinescope-tv__loader {
+	display: none;
+    padding: 20px 0;
+}
+.kinescope-tv__loader img {
+    width: 64px;
+}
+#kinescope_tv_status.loading .kinescope-tv__loader {
+    display: block;
+}
